@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="444.0" prefWidth="600.0">
+         <children>
+            <VBox prefHeight="82.0" prefWidth="600.0">
+               <children>
+                  <Label prefHeight="26.0" prefWidth="232.0" text="Stellar Properties Calculator">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="184.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label prefHeight="48.0" prefWidth="318.0" text="This calculator can be used to calculate properties of  stars&#10;commonly used in astrophysical research." textAlignment="CENTER">
+                     <VBox.margin>
+                        <Insets left="141.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="90.0" prefWidth="600.0">
+               <children>
+                  <HBox prefHeight="32.0" prefWidth="600.0">
+                     <children>
+                        <Label prefHeight="17.0" prefWidth="153.0" text="Choose a value to calculate:">
+                           <HBox.margin>
+                              <Insets left="134.5" right="10.0" top="4.0" />
+                           </HBox.margin>
+                        </Label>
+                        <ChoiceBox prefHeight="27.0" prefWidth="168.0">
+                           <HBox.margin>
+                              <Insets right="134.5" />
+                           </HBox.margin>
+                        </ChoiceBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox prefHeight="37.0" prefWidth="600.0">
+                     <children>
+                        <Label prefHeight="34.0" prefWidth="177.0" text="Choose a method of calculation:&#10;(formula)" textAlignment="CENTER">
+                           <HBox.margin>
+                              <Insets left="110.5" right="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <ChoiceBox prefHeight="27.0" prefWidth="168.0">
+                           <HBox.margin>
+                              <Insets right="134.4" />
+                           </HBox.margin>
+                        </ChoiceBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+            </VBox>
+            <Button mnemonicParsing="false" prefHeight="27.0" prefWidth="132.0" text="Generate Calculator">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="234.0" />
+               </VBox.margin>
+            </Button>
+            <VBox prefHeight="159.0" prefWidth="600.0">
+               <children>
+                  <Label prefHeight="17.0" prefWidth="72.0" text="Enter Values:">
+                     <VBox.margin>
+                        <Insets left="264.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="17.0" prefWidth="44.0" text="Value 1:">
+                           <HBox.margin>
+                              <Insets left="214.0" right="10.0" top="4.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField prefHeight="27.0" prefWidth="118.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="17.0" prefWidth="44.0" text="Value 2:">
+                           <HBox.margin>
+                              <Insets left="214.0" right="10.0" top="4.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField prefHeight="27.0" prefWidth="118.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="17.0" prefWidth="48.0" text="Value 3:">
+                           <HBox.margin>
+                              <Insets left="210.0" right="10.0" top="4.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField prefHeight="27.0" prefWidth="118.0" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <Button mnemonicParsing="false" prefHeight="27.0" prefWidth="70.0" text="Calculate">
+               <VBox.margin>
+                  <Insets left="265.0" />
+               </VBox.margin>
+            </Button>
+            <Label prefHeight="17.0" prefWidth="46.0" text="Answer">
+               <VBox.margin>
+                  <Insets left="275.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</VBox>
